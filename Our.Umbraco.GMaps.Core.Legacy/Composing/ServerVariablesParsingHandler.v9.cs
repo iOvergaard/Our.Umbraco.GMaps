@@ -1,12 +1,12 @@
-﻿using Our.Umbraco.GMaps.Core.Controllers;
-using Microsoft.AspNetCore.Routing;
+﻿using Microsoft.AspNetCore.Routing;
 using System;
 using System.Collections.Generic;
+using Our.Umbraco.GMaps.Core.Legacy.Controllers;
 using Umbraco.Cms.Core.Events;
 using Umbraco.Cms.Core.Notifications;
 using Umbraco.Extensions;
 
-namespace Our.Umbraco.GMaps.Core.Composing
+namespace Our.Umbraco.GMaps.Core.Legacy.Composing
 {
     internal class ServerVariablesParsingHandler :
         INotificationHandler<ServerVariablesParsingNotification>

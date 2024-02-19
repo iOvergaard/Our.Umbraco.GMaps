@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Our.Umbraco.GMaps", "Our.Umbraco.GMaps\Our.Umbraco.GMaps.csproj", "{D92FFD8F-3F4D-449F-BAAB-054C22E7E781}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Our.Umbraco.GMaps.Core", "Our.Umbraco.GMaps.Core\Our.Umbraco.GMaps.Core.csproj", "{3EFBE46F-B8B0-467C-8787-82D646DDC84E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Our.Umbraco.GMaps.Core.Legacy", "Our.Umbraco.GMaps.Core.Legacy\Our.Umbraco.GMaps.Core.Legacy.csproj", "{3EFBE46F-B8B0-467C-8787-82D646DDC84E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{8EC9B5D0-642D-4B70-9DDC-A0E9FB6F14A6}"
 	ProjectSection(SolutionItems) = preProject
@@ -28,6 +28,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our.Umbraco.GMaps.UmbracoV12", "Our.Umbraco.GMaps.UmbracoV12\Our.Umbraco.GMaps.UmbracoV12.csproj", "{8DD93A7C-7A9F-4F16-8FF9-E94DDC3D5A29}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our.Umbraco.GMaps.UmbracoV13", "Our.Umbraco.GMaps.UmbracoV13\Our.Umbraco.GMaps.UmbracoV13.csproj", "{0265E7D4-AECD-4233-A43D-FFFFC404D23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our.Umbraco.GMaps.UmbracoV14", "Our.Umbraco.GMaps.UmbracoV14\Our.Umbraco.GMaps.UmbracoV14.csproj", "{20DEC2C8-B432-48FB-9430-D37EFAE1037A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{0265E7D4-AECD-4233-A43D-FFFFC404D23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0265E7D4-AECD-4233-A43D-FFFFC404D23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0265E7D4-AECD-4233-A43D-FFFFC404D23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20DEC2C8-B432-48FB-9430-D37EFAE1037A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20DEC2C8-B432-48FB-9430-D37EFAE1037A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20DEC2C8-B432-48FB-9430-D37EFAE1037A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20DEC2C8-B432-48FB-9430-D37EFAE1037A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{35519025-06CE-4022-A515-EC801A58377E} = {A50C0C52-6F7C-4AB9-AA28-AFC4FDAE4334}
 		{8DD93A7C-7A9F-4F16-8FF9-E94DDC3D5A29} = {A50C0C52-6F7C-4AB9-AA28-AFC4FDAE4334}
 		{0265E7D4-AECD-4233-A43D-FFFFC404D23E} = {A50C0C52-6F7C-4AB9-AA28-AFC4FDAE4334}
+		{20DEC2C8-B432-48FB-9430-D37EFAE1037A} = {A50C0C52-6F7C-4AB9-AA28-AFC4FDAE4334}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F66CF0AE-70DE-4CE2-BE50-91516A710B04}

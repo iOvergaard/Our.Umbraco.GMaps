@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Our.Umbraco.GMaps.Core.Configuration;
 using System.Linq;
+using Our.Umbraco.GMaps.Core.Legacy.Configuration;
 using Umbraco.Cms.Core.DependencyInjection;
 
-namespace Our.Umbraco.GMaps.Core
+namespace Our.Umbraco.GMaps.Core.Legacy
 {
     public static class GoogleMapsBuilderExtensions
     {

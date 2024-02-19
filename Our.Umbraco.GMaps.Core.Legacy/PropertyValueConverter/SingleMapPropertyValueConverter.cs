@@ -2,10 +2,10 @@
 using Umbraco.Cms.Core.PropertyEditors;
 using System;
 using Our.Umbraco.GMaps.Models;
-using Our.Umbraco.GMaps.Core;
-using Our.Umbraco.GMaps.Core.Models.Configuration;
+using Our.Umbraco.GMaps.Core.Legacy;
+using Our.Umbraco.GMaps.Core.Legacy.Models.Configuration;
 using System.Collections.Generic;
-using Our.Umbraco.GMaps.Core.Configuration;
+using Our.Umbraco.GMaps.Core.Legacy.Configuration;
 using Our.Umbraco.GMaps.Models.Legacy;
 using Microsoft.Extensions.Options;
 using System.Text.Json;

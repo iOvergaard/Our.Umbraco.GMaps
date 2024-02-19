@@ -39,6 +39,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Our.Umbraco.GMaps.Core\Our.Umbraco.GMaps.Core.csproj" />
+		<ProjectReference Include="..\Our.Umbraco.GMaps.Core.Legacy\Our.Umbraco.GMaps.Core.Legacy.csproj" />
 	</ItemGroup>
 </Project>

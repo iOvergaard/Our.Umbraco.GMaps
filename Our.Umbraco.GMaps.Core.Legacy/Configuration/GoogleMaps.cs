@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace Our.Umbraco.GMaps.Core.Configuration
+namespace Our.Umbraco.GMaps.Core.Legacy.Configuration
 {
     [DataContract]
     public class GoogleMaps

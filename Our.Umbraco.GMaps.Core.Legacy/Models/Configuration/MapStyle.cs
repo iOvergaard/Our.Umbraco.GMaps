@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.Runtime.Serialization;
 
-namespace Our.Umbraco.GMaps.Core.Models.Configuration
+namespace Our.Umbraco.GMaps.Core.Legacy.Models.Configuration
 {
     public class MapStyle
     {

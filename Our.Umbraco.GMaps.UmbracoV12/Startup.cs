@@ -30,7 +30,7 @@ namespace Our.Umbraco.GMaps.UmbracoV12
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddUmbraco(_env, _config)
-                .AddBackOffice() // this call registers the Our.Umbraco.GMaps.Core/Controllers/GoogleMapsController.cs
+                .AddBackOffice() // this call registers the Our.Umbraco.GMaps.Core.Legacy/Controllers/GoogleMapsController.cs
                 .AddWebsite()
                 .AddComposers()
                 .Build();

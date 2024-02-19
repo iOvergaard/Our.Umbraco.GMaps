@@ -1,4 +1,4 @@
-﻿namespace Our.Umbraco.GMaps.Core
+﻿namespace Our.Umbraco.GMaps.Core.Legacy
 {
     internal static class Constants
     {

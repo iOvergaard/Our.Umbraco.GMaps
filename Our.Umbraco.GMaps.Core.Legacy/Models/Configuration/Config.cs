@@ -3,7 +3,7 @@ using Newtonsoft.Json.Converters;
 using Our.Umbraco.GMaps.Models;
 using System.Runtime.Serialization;
 using System.Text.Json.Serialization;
-namespace Our.Umbraco.GMaps.Core.Models.Configuration
+namespace Our.Umbraco.GMaps.Core.Legacy.Models.Configuration
 {
     public class Config
     {

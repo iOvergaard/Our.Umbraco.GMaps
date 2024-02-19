@@ -1,11 +1,11 @@
-﻿using Our.Umbraco.GMaps.Core.Configuration;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Umbraco.Cms.Web.BackOffice.Controllers;
 using Umbraco.Cms.Web.Common.Attributes;
 using Umbraco.Cms.Web.Common.Controllers;
 using Microsoft.Extensions.Options;
+using Our.Umbraco.GMaps.Core.Legacy.Configuration;
 
-namespace Our.Umbraco.GMaps.Core.Controllers
+namespace Our.Umbraco.GMaps.Core.Legacy.Controllers
 {
     [PluginController(Constants.PluginName)]
     public class GoogleMapsController : UmbracoAuthorizedApiController
