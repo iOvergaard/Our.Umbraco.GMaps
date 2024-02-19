@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 	<PropertyGroup>
-		<TargetFrameworks>net6.0;net7.0</TargetFrameworks>
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
 		<StaticWebAssetBasePath>App_Plugins/Our.Umbraco.GMaps</StaticWebAssetBasePath>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<ContentTargetFolders>.</ContentTargetFolders>
@@ -36,9 +36,5 @@
 			<PackagePath></PackagePath>
 		</None>
 
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\Our.Umbraco.GMaps.Core.Legacy\Our.Umbraco.GMaps.Core.Legacy.csproj" />
 	</ItemGroup>
 </Project>
